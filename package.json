@@ -1,0 +1,23 @@
+{
+  "name": "hello-jest-github-actions",
+  "version": "1.0.0",
+  "description": "Based on: [Jest With GitHub Actions](https://blog.dennisokeeffe.com/blog/2021-10-27-jest-with-github-actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitthrawnuruodo/hello-jest-github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitthrawnuruodo/hello-jest-github-actions/issues"
+  },
+  "homepage": "https://github.com/mitthrawnuruodo/hello-jest-github-actions#readme",
+  "dependencies": {
+    "jest": "^29.2.2"
+  }
+}
