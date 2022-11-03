@@ -4,11 +4,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
       - name: Setup Node.js
-        uses: actions/setup-node
+        uses: actions/setup-node@v3
         with:
-          node-version: "12"
+          node-version: 16
 
       # Speed up subsequent runs with caching
       - name: Cache node modules
